@@ -11,3 +11,16 @@ I plan to include all resources I can find related to Gaussian process in this r
 4. Implementations: Due to its popularity, many research group has relased packages for GP, inlcuding GPytorch, Jax-GP, Falkon etc.
 5. GP in practice: Although GP is a great model to use, there are many issues occurring when blindly using GP, especially for safe-crtical applications. Therefore, some issuse like model misspecification, model calibration and model validation should be discussed in details.
 6. Advanced topics: relationship between GP and Deep neural nets, GP on mainfolds, GP and kernel methods.
+
+
+
+
+# uncertainty quantification:
+
+When training a GP for a task where uncertainty quantification matters, like safe-critical applications, active leanring and Bayesian optimization, choosing the kernel and its parameters is a very important topic.
+The following articles discuss this topic rigorously.
+
+1. Comparing Scale Parameter Estimators for Gaussian Process Regression: Cross Validation and Maximum Likelihood (This paper proves cross validation is better for choosing scale parameter than using maximum likelihood since it's asymptotically well calibrated.)
+2. Posterior and Computational Uncertainty in Gaussian Processes (Approximate GP methods will also introduce computational uncertainty, this papers proposed an algorithm to combine the computational unceratinty with the mathematical uncertainty for better UQ.)
+
+ 
