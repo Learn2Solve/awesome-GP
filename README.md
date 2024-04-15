@@ -23,4 +23,7 @@ The following articles discuss this topic rigorously.
 1. Comparing Scale Parameter Estimators for Gaussian Process Regression: Cross Validation and Maximum Likelihood (This paper proves cross validation is better for choosing scale parameter than using maximum likelihood since it's asymptotically well calibrated.)
 2. Posterior and Computational Uncertainty in Gaussian Processes (Approximate GP methods will also introduce computational uncertainty, this papers proposed an algorithm to combine the computational unceratinty with the mathematical uncertainty for better UQ.)
 
+
+Test datasets for UQ:
+https://www.sfu.ca/~ssurjano/uq.html
  
